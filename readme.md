@@ -3,6 +3,19 @@
 		<img width="500" src="media/logo.svg" alt="Awesome Node.js">
 	</div>
 	<br>
+	<p>
+		<sup>Special thanks to:</sup>
+		<br>
+		<br>
+		<a href="https://segment.com">
+			<img src="media/segment-logo.svg" width="160" alt="Segment">
+		</a>
+	</p>
+	<p>
+		<sup>
+			Save time setting up analytics with Segment. <a href="https://segment.com/jobs">We're hiring!</a>
+		</sup>
+	</p>
 	<br>
 	<br>
 	<a href="https://awesome.re">
@@ -200,6 +213,7 @@
 - [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
 - [cacheable-request](https://github.com/lukechilds/cacheable-request) - Wrap native HTTP requests with RFC compliant cache support.
 - [gotql](https://github.com/khaosdoctor/gotql) - GraphQL request library built on [got](https://github.com/sindresorhus/got).
+- [global-agent](https://github.com/gajus/global-agent) – Global HTTP/HTTPS proxy agent that is configurable using environment variables.
 
 
 ### Debugging / Profiling
@@ -217,6 +231,7 @@
 - [ctrace](https://github.com/automation-stack/ctrace) - Well-formatted and improved trace system calls and signals.
 - [leakage](https://github.com/andywer/leakage) - Write memory leak tests.
 - [llnode](https://github.com/nodejs/llnode) - Post-mortem analysis tool which allows you to inspect objects and get insights from a crashed Node.js process.
+- [thetool](https://github.com/sfninja/thetool) - Capture different CPU, memory, and other profiles for your app in Chrome DevTools friendly format.
 
 
 ### Logging
@@ -434,6 +449,7 @@
 - [pica](https://github.com/nodeca/pica) - High quality & fast resize (lanczos3) in pure JS. Alternative to canvas drawImage(), when no pixelation allowed.
 - [jimp](https://github.com/oliver-moran/jimp) - Image processing in pure JavaScript.
 - [probe-image-size](https://github.com/nodeca/probe-image-size) - Get the size of most image formats without a full download.
+- [qrcode](https://github.com/soldair/node-qrcode) - QR code and bar code generator.
 
 
 ### Text
@@ -500,7 +516,7 @@
 - [is-my-json-valid](https://github.com/mafintosh/is-my-json-valid) - JSON Schema validator that uses code generation to be extremely fast.
 - [property-validator](https://github.com/nettofarah/property-validator) - Easy property validation for Express.
 - [schema-inspector](https://github.com/Atinux/schema-inspector) - JSON API sanitization and validation.
-- [ajv](https://github.com/epoberezkin/ajv) - The fastest JSON Schema validator. Supports v5 proposals.
+- [ajv](https://github.com/epoberezkin/ajv) - The fastest JSON Schema validator. Supports v5, v6 and v7 proposals.
 
 
 ### Parsing
@@ -615,6 +631,7 @@
 - [Jest](https://github.com/facebook/jest) - Painless JavaScript testing.
 - [TestCafe](https://github.com/DevExpress/testcafe) - Automated browser testing.
 - [abstruse](https://github.com/bleenco/abstruse) - Continuous Integration server.
+- [CodeceptJS](https://github.com/Codeception/CodeceptJS) - End-to-end testing.
 
 
 ### Security
@@ -663,7 +680,6 @@
 
 ### Job queues
 
-- [kue](https://github.com/Automattic/kue) - Redis-backed priority job queue.
 - [bull](https://github.com/OptimalBits/bull) - Persistent job and message queue.
 - [agenda](https://github.com/rschmukler/agenda) - MongoDB-backed job scheduling.
 - [idoit](https://github.com/nodeca/idoit) - Redis-backed job queue engine with advanced job control.
@@ -671,6 +687,8 @@
 - [rsmq](https://github.com/smrchy/rsmq) - Redis-backed message queue.
 - [bee-queue](https://github.com/bee-queue/bee-queue) - High-performance Redis-backed job queue.
 - [RedisSMQ](https://github.com/weyoss/redis-smq) - Simple high-performance Redis message queue with real-time monitoring.
+- [sqs-consumer](https://github.com/bbc/sqs-consumer) - Build Amazon Simple Queue Service (SQS) based apps without the boilerplate.
+- [better-queue](https://github.com/diamondio/better-queue) - Simple and efficient job queue when you cannot use Redis.
 
 
 ### Node.js management
@@ -679,6 +697,7 @@
 - [nave](https://github.com/isaacs/nave) - Virtual Environments for Node.js.
 - [nodeenv](https://github.com/ekalinin/nodeenv) - Node.js virtual environment compatible to Python's virtualenv.
 - [nvm for Windows](https://github.com/coreybutler/nvm-windows) - Version management for Windows.
+- [nodenv](https://github.com/nodenv/nodenv) - Version manager that is similar to Ruby's rbenv. It supports auto version switching.
 
 
 ### Natural language processing
@@ -831,6 +850,7 @@
 - [Understanding the Node.js Event Loop](https://nodesource.com/blog/understanding-the-nodejs-event-loop/)
 - [Understanding Object Streams](https://nodesource.com/blog/understanding-object-streams/)
 - [Art of README](https://github.com/noffle/art-of-readme) - Learn the art of writing quality READMEs.
+- [Using Express to Quickly Build a GraphQL Server](https://snipcart.com/blog/graphql-nodejs-express-tutorial)
 
 ### Newsletters
 
